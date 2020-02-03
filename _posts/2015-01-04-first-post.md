@@ -1,7 +1,25 @@
 ---
 layout: post
-title: First post!
-image: /img/hello_world.jpeg
+title: (HTML)블록과 인라인 그리고 인라인블록
 ---
 
-This is my first post, how exciting!
+## block 
+
+* block 요소에는 div, h1~h6, form, table, ul, ol, li, hr, p, header, nav, section 등이 있다.
+* block은 줄바꿈이 있으며 한 영역을 혼자 차지한다. 
+* width와 height값을 지정할 수 있다.
+
+
+
+## inline
+
+* inline 요소에는 span, input, label. button, select, img, a, br, strong 등이 있다.
+* inline은 줄바꿈이 없으며 컨텐츠의 영역만큼만 차지한다. 
+* width와 height값 그리고 margin과 padding의 top,bottom값을 지정할 수 없다. 
+
+
+
+## inline-block
+
+* inline-block은 이름 그대로 inline과 block의 특징을 모두 가진 요소이다. 
+* 줄바꿈이 없으며 width와 height값 그리고 margin과 padding의 top,bottom값을 지정할 수 있다.
